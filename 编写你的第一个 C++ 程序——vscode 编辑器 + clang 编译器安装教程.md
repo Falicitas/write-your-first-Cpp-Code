@@ -180,5 +180,5 @@ mirrorlist.msys 示例：
 
 提问之前请注意提问的艺术（如果您实在很直白，可以参照XCPC新生群的 提问的智慧-CPC版.pdf ）
 
-另外，本篇文章是开源的！有热心的学长学姐若对 C/C++ 编辑器编译器有更深入的理解，欢迎 Pull Request [Falicitas/write-your-first-Cpp-Code](https://github.com/Falicitas/write-your-first-Cpp-Code)。
+另外，本篇文章是开源的！有热心的学长学姐若对 C/C++ 编辑器编译器有更深入的理解，欢迎 Pull Request [Falicitas/write-your-first-Cpp-Code](https://github.com/Falicitas/write-your-first-Cpp-Code)（gitee同源仓库：[https://gitee.com/kineXense/write-your-first-Cpp-Code](https://gitee.com/kineXense/write-your-first-Cpp-Code)）。
 
