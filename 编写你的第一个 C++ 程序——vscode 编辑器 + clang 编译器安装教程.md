@@ -56,7 +56,7 @@
 
 1. 安装好后启动程序，配置中文界面：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210219171723679.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg4MzkxNw==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219171723679.png)
 
 上面安装完成后会出现下面的界面，我们搜索 Chinese，点击 install。安装好后 Restart，重启后就是中文界面了。
 
