@@ -20,25 +20,25 @@
 
 让我们开始下载&安装吧。VSCode 下载地址：[Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download) ，根据自己的操作系统选择相应的版本下载即可（以下以 Windows 为例）。
 
-![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219170502172.png)
+![在这里插入图片描述](https://image-hosting-mirror.pages.dev/20210219170502172.png)
 
 ### 安装
 
 1. 同意协议：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219170619498.png)
+![在这里插入图片描述](https://image-hosting-mirror.pages.dev/20210219170619498.png)
 
 2. 选择安装的位置。默认系统盘，不过放其他位置不影响使用：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219170634207.png)
+![在这里插入图片描述](https://image-hosting-mirror.pages.dev/20210219170634207.png)
 
 3. 快捷图标名称设置：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219170648394.png)
+![在这里插入图片描述](https://image-hosting-mirror.pages.dev/20210219170648394.png)
 
 4. 这里注意下，进行相关的选择：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219170701341.png)
+![在这里插入图片描述](https://image-hosting-mirror.pages.dev/20210219170701341.png)
 
 - “通过 Code 打开” 操作添加到 windows资源管理器文件上下文菜单 ：把这个两个勾选上， **可以对文件使用鼠标右键，选择 VSCode 打开** 。
 - 将 Code 注册为受支持的文件类型的编辑器：勾选的话，这样会默认使用 VSCode 打开支持的相关文件， **文件图标也会改变** 。（见仁见智，可勾可不勾）
@@ -46,27 +46,27 @@
 
 5. 点击安装：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219170713685.png)
+![在这里插入图片描述](https://image-hosting-mirror.pages.dev/20210219170713685.png)
 
 6. 等待安装完成：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219170717780.png)
+![在这里插入图片描述](https://image-hosting-mirror.pages.dev/20210219170717780.png)
 
 ### 编辑器的插件配置
 
 1. 安装好后启动程序，配置中文界面：
 
-![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219171723679.png)
+![在这里插入图片描述](https://image-hosting-mirror.pages.dev/20210219171723679.png)
 
 上面安装完成后会出现下面的界面，我们搜索 Chinese，点击 install。安装好后 Restart，重启后就是中文界面了。
 
-![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219171818226.png)
+![在这里插入图片描述](https://image-hosting-mirror.pages.dev/20210219171818226.png)
 
 > 上面的Chinese（Simplified）Language 就是 VSCode 众多插件的一个。插件可以更改主题，改变编辑器的外观；可以支持一种新的编程语言，以及配置相应的调试器；还可以管理代码格式，让代码更规范与可观看。为了不跑偏主题，仅介绍与语言直接相关的几个插件，之后对于插件的添加与移除，全交给你自己去探索。
 
 安装 C/C++ 基础&扩展插件：
 
-![image-20210915231311036](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210915231311036.png)
+![image-20210915231311036](https://image-hosting-mirror.pages.dev/image-20210915231311036.png)
 
 > 作为 VSCode 官方发布的 C/C++ 插件，C/C++ Extension 提供了丰富的代码格式化设置与其他功能，在下面的格式化配置需要用到。鉴于笔者能力有限，尚且对该插件的其他功能了解不深，就不多做介绍了。
 
@@ -74,7 +74,7 @@
 
 打开 VSCode，进行代码格式化配置：
 
-![image-20210916002447806](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210916002447806.png)
+![image-20210916002447806](https://image-hosting-mirror.pages.dev/image-20210916002447806.png)
 
 推荐配置：
 
@@ -104,11 +104,11 @@
 
 1. 在 [https://www.msys2.org](https://www.msys2.org/) （如果官网打不开，直接 google msys2 ，在 sourceforge 上下载）下载 msys2（我们通过 msys2 来下载并安装 Clang）：
 
-![image-20210915233510984](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210915233510984.png)
+![image-20210915233510984](https://image-hosting-mirror.pages.dev/image-20210915233510984.png)
 
 2. 启动 .exe 程序，进行安装：
 
-[![img](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/201907281859414118.png)]()
+[![img](https://image-hosting-mirror.pages.dev/201907281859414118.png)]()
 
 msys2 默认安装在 C 盘，在这里我自己不做修改，安装路径读者可自行决定。
 
@@ -116,7 +116,7 @@ msys2 默认安装在 C 盘，在这里我自己不做修改，安装路径读�
 
 打开`C:\msys64\etc\pacman.d`可以看到`mirrorlist.mingw32`、`mirrorlist.mingw64`、`mirrorlist.msys`三个文件
 
-![image-20210915234027197](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210915234027197.png)
+![image-20210915234027197](https://image-hosting-mirror.pages.dev/image-20210915234027197.png)
 
 分别打开这第三个文件，在文件末尾分别加入这几行：
 
@@ -140,19 +140,19 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/msys/$arch
 
 mirrorlist.msys 示例：
 
-![image-20210915234140784](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210915234140784.png)
+![image-20210915234140784](https://image-hosting-mirror.pages.dev/image-20210915234140784.png)
 
 4. 随后打开 msys2 ，输入 `pacman -Sy` 同步软件包数据库，然后再输入 `pacman -Su` 更新软件包，期间 msys2 提示你输入 y 之后会关闭，重新打开 **再输入一遍** `pacman -Su` 即可：
 
-![image-20210915234805181](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210915234805181.png)
+![image-20210915234805181](https://image-hosting-mirror.pages.dev/image-20210915234805181.png)
 
-![image-20210915234953154](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210915234953154.png)
+![image-20210915234953154](https://image-hosting-mirror.pages.dev/image-20210915234953154.png)
 
 （主机名打码了。不影响演示）
 
 5. 打开 msys2 ，输入 `pacman -S mingw64/mingw-w64-x86_64-make mingw64/mingw-w64-x86_64-gdb mingw64/mingw-w64-x86_64-clang` 按照提示，就可以完成 Clang 的安装了：
 
-![image-20210915234637674](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210915234637674.png)
+![image-20210915234637674](https://image-hosting-mirror.pages.dev/image-20210915234637674.png)
 
 6. 添加环境变量
 
@@ -160,17 +160,17 @@ mirrorlist.msys 示例：
 
 将 `C:\msys64\mingw64\bin` 添加到 Path 中（这路径根据前面 msys2 安装的位置决定。如果位置不一样，找到你安装目录下\msys64\mingw64\ 的 bin，将上面的路径换成 bin 文件的路径即可），在终端（可以在 VSCode 的终端下，以下图为例）输入 `clang -v` ，看是否与下图返回的信息一致：
 
-![image-20210916000545839](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210916000545839.png)
+![image-20210916000545839](https://image-hosting-mirror.pages.dev/image-20210916000545839.png)
 
 若信息基本一致（可能版本不同），那么你就已经成功安装 Clang 了！
 
 让我们写下第一个程序吧：
 
-![image-20210916000945911](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210916000945911.png)
+![image-20210916000945911](https://image-hosting-mirror.pages.dev/image-20210916000945911.png)
 
 接下来进行编译：
 
-![image-20210916001541038](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210916001541038.png)
+![image-20210916001541038](https://image-hosting-mirror.pages.dev/image-20210916001541038.png)
 
 至此，你已经写下第一个程序并成功编译运行了，撒花 ★,°:.☆\(￣▽￣)/$:.°★
 
