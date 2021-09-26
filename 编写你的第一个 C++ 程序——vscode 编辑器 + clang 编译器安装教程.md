@@ -56,7 +56,7 @@
 
 1. 安装好后启动程序，配置中文界面：
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210219171723679.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg4MzkxNw==,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/20210219171723679.png)
 
 上面安装完成后会出现下面的界面，我们搜索 Chinese，点击 install。安装好后 Restart，重启后就是中文界面了。
 
@@ -190,5 +190,5 @@ mirrorlist.msys 示例：
 
 提问之前请注意提问的艺术（如果您实在很直白，可以参照XCPC新生群的 提问的智慧-CPC版.pdf ）
 
-另外，本篇文章是开源的！有热心的学长学姐若对 C/C++ 编辑器编译器有更深入的理解，欢迎 Pull Request [Falicitas/write-your-first-Cpp-Code](https://github.com/Falicitas/write-your-first-Cpp-Code)。
+另外，本篇文章是开源的！有热心的学长学姐若对 C/C++ 编辑器编译器有更深入的理解，欢迎 Pull Request [Falicitas/write-your-first-Cpp-Code](https://github.com/Falicitas/write-your-first-Cpp-Code)（gitee同源仓库：[https://gitee.com/kineXense/write-your-first-Cpp-Code](https://gitee.com/kineXense/write-your-first-Cpp-Code)）。
 
