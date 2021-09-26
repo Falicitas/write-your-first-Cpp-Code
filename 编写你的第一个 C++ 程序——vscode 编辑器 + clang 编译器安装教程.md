@@ -142,7 +142,7 @@ mirrorlist.msys 示例：
 
 ![image-20210915234140784](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210915234140784.png)
 
-4. 随后打开 msys2 ，输入 `pacman -Sy` 同步软件包数据库，然后再输入 `pacman -Su` 更新软件包，期间 msys2 提示你输入 y 之后会关闭，重新打开 **再输入一遍** `pacman -Su` 即可：
+4. 随后打开 msys2 ，输入 `pacman -Sy` 同步软件包数据库，然后再输入 `pacman -Su` 更新软件包，期间 msys2 提示你输入 y 之后会关闭，重新打开 **再输入一遍** `pacman -Su` 即可（注意，你可以选择复制指令后，在msys2.exe黑框右键选择 paste，就可以粘贴进命令行中）：
 
 ![image-20210915234805181](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210915234805181.png)
 
@@ -150,7 +150,15 @@ mirrorlist.msys 示例：
 
 （主机名打码了。不影响演示）
 
-5. 打开 msys2 ，输入 `pacman -S mingw64/mingw-w64-x86_64-make mingw64/mingw-w64-x86_64-gdb mingw64/mingw-w64-x86_64-clang` 按照提示，就可以完成 Clang 的安装了：
+5. 打开 msys2 ，分别输入三条指令 
+
+   ```bash 
+   pacman -S mingw64/mingw-w64-x86_64-make
+   pacman -S mingw64/mingw-w64-x86_64-gdb
+   pacman -S mingw64/mingw-w64-x86_64-clang
+   ```
+
+   按照提示，就可以完成 Clang 的安装了：
 
 ![image-20210915234637674](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210915234637674.png)
 
@@ -171,6 +179,8 @@ mirrorlist.msys 示例：
 接下来进行编译：
 
 ![image-20210916001541038](https://raw.githubusercontent.com/Falicitas/Image-Hosting/main/image-20210916001541038.png)
+
+默认编译生成a.exe文件，想要给编译后的程序命名，可以加入 `-o` 指令。例如想生成 `b.exe` ，则 `clang++ b.cpp -o "b.exe"` 。
 
 至此，你已经写下第一个程序并成功编译运行了，撒花 ★,°:.☆\(￣▽￣)/$:.°★
 
