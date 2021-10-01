@@ -1,5 +1,7 @@
 # 编写你的第一个 C++ 程序——在 Windows 下的 VSCode 编辑器 + clang 编译器安装教程
 
+——V0.2版本增加了尽可能避免 msys2 指令与 clang 出错的手段（如何在 msys2.exe 使用复制粘贴，如何成功配置环境变量）
+
 > 若能有一定 C++语法 / bash命令行的理论基础，阅读会轻松许多；没有也没关系，按步骤配置即可实现你的第一个 C++ 程序 =w=
 
 ## 你应当如何阅读本文
@@ -150,7 +152,7 @@ mirrorlist.msys 示例：
 
 （主机名打码了。不影响演示）
 
-5. 打开 msys2 ，分别输入三条指令 
+5. 打开 msys2 ，分别输入三条指令（正常情况下会进入安装流程，一旦出现其它问题，皆为指令输入错误。请尽量使用复制粘贴，且核对是否与下面的指令一致）
 
    ```bash 
    pacman -S mingw64/mingw-w64-x86_64-make
@@ -164,7 +166,7 @@ mirrorlist.msys 示例：
 
 6. 添加环境变量
 
-（[关于如何将路径添加到系统变量 Path](https://jingyan.baidu.com/article/49711c61197cadba451b7c6f.html)）
+（[关于如何将路径添加到系统变量 Path](https://jingyan.baidu.com/article/49711c61197cadba451b7c6f.html)，或者参考由赖哲剑学长整理的 「如何配置环境变量.pdf」，在群文件里有。如果出现诸如“无法将“clang”项识别为 cmdlet...”的问题，都是没有成功配好环境变量）
 
 将 `C:\msys64\mingw64\bin` 添加到 Path 中（这路径根据前面 msys2 安装的位置决定。如果位置不一样，找到你安装目录下\msys64\mingw64\ 的 bin，将上面的路径换成 bin 文件的路径即可），在终端（可以在 VSCode 的终端下，以下图为例）输入 `clang -v` ，看是否与下图返回的信息一致：
 
